@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Terrain : MonoBehaviour, IInteractable
+public class TerrainScript : MonoBehaviour, IInteractable
 {
     [Header("Interface Setup")]
     [SerializeField] private bool isInteractable = true;

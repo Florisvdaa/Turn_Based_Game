@@ -144,7 +144,7 @@ Transform:
   m_GameObject: {fileID: 194532288}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10, y: 0, z: -5}
+  m_LocalPosition: {x: -9, y: 0, z: -4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -609,6 +609,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9b1736c51f65c246bbfc9b673bc48f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1661149675
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1661149676}
+  - component: {fileID: 1661149677}
+  m_Layer: 0
+  m_Name: TurnManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1661149676
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661149675}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1661149677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661149675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d338a0a788ad09439e57e85a6d7ebb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentState: 0
 --- !u!1 &1922337329
 GameObject:
   m_ObjectHideFlags: 0
@@ -655,12 +700,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   terrainStartPos: {fileID: 194532289}
+  presetStartChunk: {fileID: 3317298819065497815, guid: 2f59ca59534036441b2b91cbf2592aad, type: 3}
   terrainPrefabs:
-  - {fileID: 613182329258548653, guid: 33458a9ce3e334b42beb5d7003bf402b, type: 3}
-  - {fileID: 1453263035627360988, guid: cbcd69c7d0d292d45a9a905cbfa1720a, type: 3}
-  - {fileID: 995401023570024762, guid: 7ee979c688f0cfd45b95ea5de20ae599, type: 3}
-  width: 20
-  height: 20
+  - {fileID: 751164651359712870, guid: aeac5ea168c931a4a9ddf6d1cab6876f, type: 3}
+  - {fileID: 4936734521713733078, guid: e3a883cc59aa60146bb29a3cae30a4c6, type: 3}
+  - {fileID: 6077841170445322984, guid: c7116cd0b44d6274f9ed78d031f1974e, type: 3}
+  - {fileID: 3548754582882906247, guid: 676971a05d91c7d46bc185f007827f77, type: 3}
+  - {fileID: 5130205075779235643, guid: c11b1122f383f1a4cbf5c3e9676eb6df, type: 3}
+  - {fileID: 3566008358604997511, guid: 6f7a40f8b0befee4bacd19ce9609cb72, type: 3}
+  width: 7
+  height: 7
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -671,3 +720,4 @@ SceneRoots:
   - {fileID: 497908857}
   - {fileID: 1922337330}
   - {fileID: 1479483207}
+  - {fileID: 1661149676}
