@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 3D_Tile_Ground_01
       objectReference: {fileID: 0}
+    - target: {fileID: 2120745645679769699, guid: 2e1ecf6b062fbd248a32028e6ef85fcd, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -110,6 +114,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2159166773384796859, guid: 34fd9d0058a69f546800183ada5a654f, type: 3}
+      propertyPath: terrainType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2297180262419836038, guid: 34fd9d0058a69f546800183ada5a654f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3722250241772142871, guid: 34fd9d0058a69f546800183ada5a654f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4403968474222603812, guid: 34fd9d0058a69f546800183ada5a654f, type: 3}
       propertyPath: m_LocalScale.y
       value: 1
@@ -125,6 +141,18 @@ PrefabInstance:
     - target: {fileID: 4729466724399627017, guid: 34fd9d0058a69f546800183ada5a654f, type: 3}
       propertyPath: m_Name
       value: High Terrain
+      objectReference: {fileID: 0}
+    - target: {fileID: 4729466724399627017, guid: 34fd9d0058a69f546800183ada5a654f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5429010593066565877, guid: 34fd9d0058a69f546800183ada5a654f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6220309171543574532, guid: 34fd9d0058a69f546800183ada5a654f, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7907856217531851032, guid: 34fd9d0058a69f546800183ada5a654f, type: 3}
       propertyPath: m_Size.y
